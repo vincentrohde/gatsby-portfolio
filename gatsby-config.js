@@ -5,5 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        name: `Hello Gatsby World!`,
+        tagline: `Gatsby + SASS = 💪`
+    },
+    plugins: [
+        `gatsby-plugin-sass`,
+    ],
 }

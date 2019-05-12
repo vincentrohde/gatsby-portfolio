@@ -1,13 +1,16 @@
 .Page {
     width: 50%;
-    height: 300px;
     margin: 0 auto;
     padding: 1em;
-    background: navajowhite;
-    font-family: sans-serif;
+    font-family: 'Avenir', sans-serif;
+    // border: 0.1em dashed black;
 
     .title {
         font-size: 1.5em;
+        margin: 0;
+    }
+
+    .text {
         margin: 0;
     }
 }

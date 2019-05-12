@@ -15,9 +15,14 @@ export const query = graphql`
         tagline
       }
     }
-    allContentfulProject {
+    allContentfulProject(
+        sort: {
+          fields: [createdAt], order: DESC
+        }
+    ) {
       edges {
         node {
+          createdAt
           title,
           image {
             title
